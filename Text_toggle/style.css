@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    left: 20vw;
+    /* height: 30vh; */
+    text-align: center;
+    width: 50vw;
+    top: 30vh;
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 5px solid black;
+}
+
+#text1{
+    overflow: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+body{
+    background-color: aqua;
+}
