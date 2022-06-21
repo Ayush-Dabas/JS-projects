@@ -1,0 +1,18 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+#photo{
+    position: absolute;
+    left: 40vw;
+    top: 30vh;
+    width: 50vh;
+    
+}
+
+#click{
+    position: absolute;
+    top: 10vh;
+    left: 42vw;
+}
