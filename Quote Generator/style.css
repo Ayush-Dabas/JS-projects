@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.quoteGenerator{
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0);
+}
+
+#quote{
+    font-size: 5vh;
+    margin-bottom: 20px;
+    min-height: 50px;
+}
+
+button{
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover{
+    background: #0ea5e9;
+}
