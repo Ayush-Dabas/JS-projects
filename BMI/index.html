@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI pas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>BMI Calculator</h2>
+        <input type="number" id="height" placeholder="Height (CM)">
+        <input type="number" id="weight" placeholder="Weight (KG)">
+        <button id="BMIButton">Calculate BMI</button>
+        <p id="BMIResult"></p>
+
+        <h3>Weight Tracker</h3>
+        <input type="date" id="dateInput">
+        <input type="number" id="weightInput" placeholder="Weight (KG)">
+        <button id="addWeightButton">Add Weight</button>
+
+        <canvas id="weightChart"></canvas>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
